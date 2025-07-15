@@ -1,15 +1,18 @@
 Installation
 ============
 
+.. warning::
+   **Development Status**: This package is not yet available for installation as development is currently paused. Please check back once the `pyagentai <https://github.com/MeepoLabs/pyagentai>`_ library is complete.
+
 Requirements
 -----------
 
-autogen-agentai requires Python 3.10 or higher.
+autogen-agentai will require Python 3.10 or higher once available.
 
-Installing from PyPI
--------------------
+Installing from PyPI (Future)
+-----------------------------
 
-The recommended way to install autogen-agentai is from PyPI:
+Once available, the recommended way to install autogen-agentai will be from PyPI:
 
 .. code-block:: bash
 
@@ -21,10 +24,10 @@ Or with Poetry:
 
     poetry add autogen-agentai
 
-Installing from Source
----------------------
+Installing from Source (Future)
+-------------------------------
 
-You can also install autogen-agentai directly from the source code:
+Once development resumes, you will also be able to install autogen-agentai directly from the source code:
 
 .. code-block:: bash
 
@@ -38,4 +41,5 @@ Or with Poetry:
 
     git clone https://github.com/meepolabs/autogen-agentai.git
     cd autogen-agentai
+    poetry install
     poetry install
